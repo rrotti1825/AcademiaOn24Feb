@@ -35,7 +35,7 @@ import lombok.ToString;
 	)
 public class HeadGroup {
 	@Id
-	@Column(name="head_group")
+	@Column(name="head_group",length=20)
 	String id ; 
 	
 	@Column(name = "code",unique=true,length=10) @NotNull String code ;
